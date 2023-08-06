@@ -1,0 +1,73 @@
+.landingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landingContent {
+  width: 40%;
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+}
+.landingContent h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #000;
+  font-size: 90px;
+  text-transform: uppercase;
+  line-height: 108px;
+}
+.landingContent p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #5a5959;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.landingImage {
+  width: 30%;
+}
+.heroImage {
+  width: 530px;
+  position: relative;
+  top: 100px;
+}
+.clickButtons {
+  display: flex;
+  gap: 40px;
+}
+.shopNowBtn {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  border: none;
+  background-color: #d01c28;
+  padding: 6px 16px;
+  color: #fff;
+}
+.shopNowBtn:hover {
+  cursor: pointer;
+  background-color: #ff0d1d;
+}
+.categoryBtn {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid #181818;
+  background-color: #fff;
+  padding: 6px 16px;
+  color: #5a5959;
+}
+.alsoAvailable {
+  color: #5a5959;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.storeImages {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
