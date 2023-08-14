@@ -29,7 +29,7 @@ const Navigation = () => {
               </a>
             </li>
             <li className="navOptions">
-              <a href="/contact" className="navHref">
+              <a href="/career" className="navHref">
                 Career
               </a>
             </li>
