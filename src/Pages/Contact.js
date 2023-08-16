@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from "./Layout";
-import Shoe from "../assets/images/hero-image.png";
+import guywithshoes from "../assets/images/guy-with-shoes.jpg";
 import '../assets/css/Contact.css'
 
 const Contact = () => {
   return (
     <Layout>
-      <div className="mainContainer">
+      <div className="Contact_mainContainer">
         <div className="textContainer">
           <div className="text">
             <h2 className="heading">Step into Support: Connecting Your Stride with Our Service</h2>
@@ -15,7 +15,7 @@ const Contact = () => {
         </div>
         <div className="imageContainer">
           <div className="image">
-            <img src={Shoe} alt="nike-shoes" />
+            <img src={guywithshoes} alt="nike-shoes" className="guy_with_shoes" width='800px'/>
           </div>
         </div>
       </div>
